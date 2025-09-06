@@ -107,7 +107,7 @@ def main() -> None:
     # Define cleanup patterns
     node_patterns = {
         "deps": ["node_modules"],
-        "locks": ["package-lock.json", "pnpm-lock.yaml", "yarn.lock"],
+        "locks": ["package-lock.json", "pnpm-lock.yaml"],
         "builds": [".next", "dist", "build", ".output"],
         "cache": [".cache", "node_modules/.cache"],
     }

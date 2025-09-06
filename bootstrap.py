@@ -118,7 +118,6 @@ def setup_project(name: str, path: Path, project_type: str) -> bool:
             run("yarn install", cwd=path, retries=1)
         else:  # rust
             run("cargo fetch", cwd=path, retries=1)
-            run("cargo check", cwd=path, retries=1)
         
         log(f"✓ {name} setup complete")
         return True
