@@ -1,0 +1,6 @@
+[submodule "bot"]
+	path = bot
+	url = https://github.com/govbot-uk/govbot-bot.git
+[submodule "site"]
+	path = site
+	url = https://github.com/govbot-uk/govbot-site.git
